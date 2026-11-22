@@ -7,6 +7,7 @@ import {
   StyleSheet,
   Alert
 } from 'react-native';
+import { registerGlobals, LiveKitRoom } from '@livekit/react-native';
 registerGlobals();
 
 const TOKEN_SERVER = 'https://YOUR-TOKEN-SERVER.example'; // replace with deployed server URL
