@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, Pressable, StyleSheet, Alert } from 'react-native';
-import { registerGlobals, LiveKitRoom } from '@livekit/react-native';
+import {
+  View,
+  Text,
+  TextInput,
+  Pressable,
+  StyleSheet,
+  Alert
+} from 'react-native';
 registerGlobals();
 
 const TOKEN_SERVER = 'https://YOUR-TOKEN-SERVER.example'; // replace with deployed server URL
